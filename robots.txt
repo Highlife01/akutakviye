@@ -1,0 +1,33 @@
+# robots.txt for Adana 7/24 Akü Takviye ve Mobil Şarj (https://adanaakutakviye.com.tr)
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /admin
+
+# Dedicated rules for AI Search Engines (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemaps & Local GEO Resources
+Sitemap: https://adanaakutakviye.com.tr/sitemap.xml
+
+# Generative Engine Optimization (GEO) Resource
+# LLMs-Text: https://adanaakutakviye.com.tr/llms.txt

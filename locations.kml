@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Adana Merkez 7/24 Akü Takviye ve Elektrikli Araç Mobil Şarj İstasyonları</name>
+    <description>Adana merkez ilçeleri (Seyhan, Çukurova, Yüreğir, Sarıçam) genelinde 7/24 ortalama 15-30 dakikada yerinde akü takviyesi, akü değişimi ve elektrikli araçlar için mobil DC acil şarj noktaları.</description>
+    
+    <!-- 1. SEYHAN MERKEZ BÖLGESİ -->
+    <Placemark>
+      <name>Adana Akü Takviye - Seyhan Merkez İstasyonu</name>
+      <description>Seyhan geneli 7/24 nöbetçi mobil servis. Hizmet Alanları: Barajyolu, Ziyapaşa, Gazipaşa, Reşatbey, Gürselpaşa, Tellidere, Yeşilyurt, Fevzipaşa, Şakirpaşa. Ortalama varış: 15-20 dk. Tel: 0530 478 84 09</description>
+      <Point>
+        <coordinates>35.3308,36.9914,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- 2. ÇUKUROVA MERKEZ BÖLGESİ -->
+    <Placemark>
+      <name>Adana Akü Takviye - Çukurova / Turgut Özal İstasyonu</name>
+      <description>Çukurova geneli 7/24 nöbetçi mobil servis. Hizmet Alanları: Turgut Özal Bulvarı, Kenan Evren Bulvarı, Süleyman Demirel Bulvarı, Güzelyalı, Beyazevler, Mahfesığmaz, Huzurevleri, Toros, 100. Yıl, Kurttepe. Ortalama varış: 15-20 dk. Tel: 0530 478 84 09</description>
+      <Point>
+        <coordinates>35.2982,37.0543,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- 3. YÜREĞİR MERKEZ BÖLGESİ -->
+    <Placemark>
+      <name>Adana Akü Takviye - Yüreğir İstasyonu</name>
+      <description>Yüreğir geneli 7/24 nöbetçi mobil servis. Hizmet Alanları: D400 Karayolu, Optimum AVM çevresi, Adana Şehir Hastanesi, Kışla, Karataş Yolu, Yavuzlar, Serinevler, Atakent. Ortalama varış: 15-25 dk. Tel: 0530 478 84 09</description>
+      <Point>
+        <coordinates>35.3524,36.9856,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- 4. SARIÇAM MERKEZ BÖLGESİ -->
+    <Placemark>
+      <name>Adana Akü Takviye - Sarıçam &amp; Çukurova Ünv. İstasyonu</name>
+      <description>Sarıçam geneli 7/24 nöbetçi mobil servis. Hizmet Alanları: Çukurova Üniversitesi Kampüsü, Balcalı Hastanesi, Gültepe, Çarkıpare, Kozan Yolu, Yeşiltepe, Yeni Adana Stadyumu. Ortalama varış: 15-25 dk. Tel: 0530 478 84 09</description>
+      <Point>
+        <coordinates>35.3854,37.0252,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- 5. SARIÇAM - ADANA ORGANİZE SANAYİ (AOSB) -->
+    <Placemark>
+      <name>Adana Akü Takviye - Adana OSB (AOSB) Ağır Vasıta &amp; EV İstasyonu</name>
+      <description>Sarıçam Adana Hacı Sabancı Organize Sanayi Bölgesi (AOSB) fabrika filoları, lojistik depoları, 24V TIR/kamyon takviyesi ve elektrikli araç mobil şarjı. Tel: 0530 478 84 09</description>
+      <Point>
+        <coordinates>35.5342,36.9892,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- 6. D400 & MERKEZ ÇEVREYOLU KORİDORU -->
+    <Placemark>
+      <name>Adana Akü Takviye - D400 Karayolu &amp; Merkez Çevreyolu Devriye Üssü</name>
+      <description>Adana merkez geçişi D400 Karayolu, Otogar kavşağı, Havalimanı kavşağı, Şehir Hastanesi kavşağı ve merkez otoyol bağlantıları 7/24 acil mobil takviye ekibi. Tel: 0530 478 84 09</description>
+      <Point>
+        <coordinates>35.2750,36.9840,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

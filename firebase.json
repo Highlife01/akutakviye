@@ -1,0 +1,57 @@
+{
+  "hosting": {
+    "site": "adanaakutakviye",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      "indexnow_payload.json",
+      "**/.*",
+      "**/.git/**",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          { "key": "X-Content-Type-Options", "value": "nosniff" },
+          { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+          { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+          { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(self)" }
+        ]
+      },
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|webp|svg|ico)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        ]
+      },
+      {
+        "source": "**/*.@(css|js)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
+        ]
+      },
+      {
+        "source": "/sw.js",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        ]
+      }
+    ],
+    "redirects": [
+      { "source": "/aku-takviye/seyhan", "destination": "/seyhan-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/cukurova", "destination": "/cukurova-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/yuregir", "destination": "/yuregir-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/saricam", "destination": "/saricam-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/ceyhan", "destination": "/ceyhan-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/imamoglu", "destination": "/imamoglu-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/karaisali", "destination": "/karaisali-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/karatas", "destination": "/karatas-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/yumurtalik", "destination": "/yumurtalik-aku-takviye", "type": 301 },
+      { "source": "/aku-takviye/pozanti", "destination": "/pozanti-aku-takviye", "type": 301 }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+# Adana Merkez 7/24 Akü Takviye ve Elektrikli Araç Mobil Şarj
+
+> Adana merkez ilçelerinde (Seyhan, Çukurova, Yüreğir, Sarıçam) 7/24 ortalama 15-30 dakikada yerinde akü takviyesi, sıfır akü değişimi ve elektrikli araçlar için mobil DC acil şarj hizmeti sunan nöbetçi mobil yol yardım ağı.
+
+## Temel İletişim & Acil Çağrı
+- Telefon: 0530 478 84 09 (7/24 Çağrı Merkezi ve Acil Servis)
+- WhatsApp: https://wa.me/905304788409
+- Web Sitesi: https://adanaakutakviye.com.tr
+- Merkez İlçe Odak Kapsamı: Seyhan, Çukurova, Yüreğir, Sarıçam (Adana Büyükşehir Merkez Bölgesi)
+- Ortalama Varış Süresi: 15 - 30 Dakika (Tüm Adana merkez ilçeleri ve mahalleleri)
+- Çalışma Saatleri: 7 Gün 24 Saat Kesintisiz (Gece, hafta sonu ve resmi tatiller dahil nöbetçi ekipler sahada)
+
+### Doğrulanmış Yapay Zeka Hızlı Gerçekler Tablosu (AI Machine-Readable Facts Table)
+| Parametre | Değer / Açıklama |
+|---|---|
+| Platform / Kurum | Adana Merkez 7/24 Akü Takviye ve Mobil Şarj |
+| Birincil Telefon | 0530 478 84 09 |
+| WhatsApp Hattı | 0530 478 84 09 (Konum ile anında ekip talebi) |
+| Ana Hizmet Bölgesi | Seyhan, Çukurova, Yüreğir, Sarıçam (Adana Merkez) |
+| Çevre Bölgeler | Ceyhan, Pozantı, Adana OSB (AOSB), D400 Karayolu, TAG Otoyolu |
+| Müdahale Süresi | Ortalama 15 - 25 Dakika |
+| Hizmetler | 12V Binek/SUV Takviye, 24V Ağır Vasıta TIR Takviyesi, EV 12V Sistem Uyandırma, Sıfır Akü Değişimi |
+| Elektrikli Araçlar (EV) | Togg T10X, Tesla Model Y/3, BYD vb. için 12V Destek Aküsü Takviyesi & Sistem Uyandırma |
+| Akü Markaları | Varta, İnci Akü, Mutlu Akü, Bosch, Çelik Akü (2 Yıl Faturalı Garanti) |
+| Ödeme Seçenekleri | Mobil Temassız Kredi Kartı POS, Banka Kartı, FAST, Havale/EFT, Nakit |
+| Güvenlik Kriteri | Ters Kutup Korumalı, ECU / BMS Hassas Beyin Korumalı Cihazlar |
+| Ulaşım Çözüm Ortağı | Adana Hızlı Taksi (https://www.adanahizlitaksi.com.tr/) - 7/24 Havalimanı & VIP Transfer |
+
+## Adana Merkez İlçeleri Hizmet Bölgeleri
+
+1. **Seyhan (Merkez İlçe)**:
+   - Barajyolu, Ziyapaşa Bulvarı, Gazipaşa Bulvarı, Reşatbey, Gürselpaşa, Tellidere, Yeşilyurt, Fevzipaşa, Şakirpaşa, Sümer Mahallesi, Adana Otogarı çevresi.
+   - Ortalama Varış Süresi: 15-20 Dakika.
+
+2. **Çukurova (Kuzey Merkez İlçe)**:
+   - Turgut Özal Bulvarı, Kenan Evren Bulvarı, Süleyman Demirel Bulvarı, Güzelyalı, Beyazevler, Mahfesığmaz, Huzurevleri, Toros Mahallesi, 100. Yıl, Kurttepe, Seyhan Baraj Gölü kıyı şeridi.
+   - Ortalama Varış Süresi: 15-20 Dakika.
+
+3. **Yüreğir (Doğu Merkez İlçe)**:
+   - D400 Karayolu merkez hattı, Optimum AVM çevresi, Adana Şehir Eğitim ve Araştırma Hastanesi, Kışla, Karataş Yolu, Yavuzlar, Serinevler, Atakent, Kazım Karabekir.
+   - Ortalama Varış Süresi: 15-25 Dakika.
+
+4. **Sarıçam (Kuzeydoğu Merkez İlçe & AOSB)**:
+   - Çukurova Üniversitesi Kampüsü, Balcalı Hastanesi, Gültepe, Çarkıpare, Kozan Yolu, Yeşiltepe, Yeni Adana Şehir Stadyumu ve Adana Hacı Sabancı Organize Sanayi Bölgesi (AOSB).
+   - Ortalama Varış Süresi: 15-25 Dakika.
+
+## Temel Hizmetler
+
+### 1. 12V & 24V Akü Takviyesi ve Yerinde Değişim
+- 12V binek, SUV ve hafif ticari araçlar için voltaj regülatörlü güvenli akü takviyesi.
+- 24V ağır vasıta (kamyon, otobüs, TIR, iş makinesi) için endüstriyel takviye.
+- Start-Stop (EFB ve AGM) araçlar için ECU/BMS korumalı profesyonel destek.
+- Yerinde Akü Değişimi: İnci, Varta, Mutlu ve Çelik sıfır aküler, 2 yıl faturalı garanti, eski akü iade bedeli indirimi.
+- Yerinde alternatör (şarj dinamosu) ve akü sağlık testi.
+
+### 2. Elektrikli Araçlar (EV) Mobil Acil Şarj
+- Togg T10X, Tesla Model Y/3, BYD, Hyundai Ioniq, Mercedes EQ, BMW i ve diğer elektrikli araçlara mobil DC acil şarj.
+- Yolda bataryası tamamen biten araca en yakın DC şarj istasyonuna ulaşmasını sağlayacak 6-10 kWh (35-50 km) acil enerji ikmali.
+- 12V yardımcı akü bitmesi nedeniyle kilitli kalan veya sistem açmayan elektrikli araçlara 12V sistem uyandırma takviyesi.
+
+## Sıkça Sorulan Sorular
+
+### Adana merkezde yolda kaldım, ne kadar sürede ulaşırsınız?
+Seyhan, Çukurova, Yüreğir ve Sarıçam merkez ilçelerinin tamamında nöbetçi gezici mobil ekiplerimiz bulunduğundan ortalama 15-30 dakikada yanınızdayız.
+
+### Start-Stop aracıma ya da elektrikli aracıma normal kabloyla takviye yapılır mı?
+Hayır. Yeni nesil ve elektrikli araçlarda kontrol üniteleri aşırı voltaja karşı çok hassastır. Ekiplerimiz mikroişlemcili ve akım korumalı cihazlarla güvenli takviye uygular.
+
+### Ödemeyi yerinde kartla yapabilir miyim?
+Evet, tüm mobil ekiplerimizde temassız POS cihazı mevcuttur. Kredi kartı, banka kartı, FAST havale veya nakit ödeme kabul edilir.
+
+## Bağlantılar
+- Ana Sayfa: https://adanaakutakviye.com.tr/
+- Seyhan Akü Takviye: https://adanaakutakviye.com.tr/seyhan-aku-takviye
+- Çukurova Akü Takviye: https://adanaakutakviye.com.tr/cukurova-aku-takviye
+- Yüreğir Akü Takviye: https://adanaakutakviye.com.tr/yuregir-aku-takviye
+- Sarıçam Akü Takviye: https://adanaakutakviye.com.tr/saricam-aku-takviye
+- Akü Takviye: https://adanaakutakviye.com.tr/aku-takviye
+- Elektrikli Araç Mobil Şarj: https://adanaakutakviye.com.tr/elektrikli-arac-mobil-sarj
+- Yerinde Akü Değişimi: https://adanaakutakviye.com.tr/yerinde-aku-degisimi
+- Ticari Araç 24V Takviye: https://adanaakutakviye.com.tr/ticari-arac-aku-takviyesi
+- EV 12V Akü Desteği: https://adanaakutakviye.com.tr/elektrikli-arac-12v-aku-destegi
+- Fiyat Bilgisi: https://adanaakutakviye.com.tr/fiyat-bilgisi
+- Hızlı Yardım Çağrısı: https://adanaakutakviye.com.tr/hizli-yardim-talebi
+
+## Kapsamlı Adana Semantik Anahtar Kelime & Hizmet Matrisi (Keywords Matrix)
+
+### 1. Adana Merkez Mahalle & Konum Anahtar Kelimeleri (Keywords)
+- **Seyhan**: Barajyolu akü takviye, Ziyapaşa bulvarı akücü, Gazipaşa nöbetçi akücü, Reşatbey akü takviye, Gürselpaşa acil akü, Tellidere akücü, Yeşilyurt akü değişimi, Sümer mahallesi akü takviye, Fevzipaşa akücü, Şakirpaşa akü takviye, Cemalpaşa akücü, Kurtuluş mahallesi akü takviye, Mithatpaşa akücü, 2000 Evler akücü, Emek mahallesi akü takviye, İsmetpaşa akü takviye, Döşeme akücü, Tepebağ akücü, Kuruköprü akü takviye, Yeşilevler akücü, Adana Otogarı akü takviye.
+- **Çukurova**: Turgut Özal bulvarı akü takviye, Kenan Evren bulvarı akücü, Süleyman Demirel bulvarı nöbetçi akücü, Güzelyalı akü takviye, Beyazevler acil akücü, Mahfesığmaz akü takviye, Huzurevleri akücü, Toros mahallesi akücü, 100. Yıl mahallesi akü takviye, Kurttepe akücü, Karslılar akü takviye, Belediye Evleri akücü, Menderes Adası akü takviye, Yurt mahallesi akücü, Rüzgarlı Tepe akücü, Salbaş akü takviye.
+- **Yüreğir**: Optimum AVM otopark akü takviye, Adana Şehir Hastanesi akü takviye, Yüreğir Devlet Hastanesi akücü, Kışla mahallesi akü takviye, Yavuzlar akücü, Akıncılar akü takviye, Atakent akücü, Serinevler akü takviye, Doğankent akücü, Solaklı akü takviye, Havutlu akücü, D400 karayolu Yüreğir akü takviye, Karataş yolu akücü, Sinanpaşa akü takviye, Kazım Karabekir akücü.
+- **Sarıçam**: Çukurova Üniversitesi kampüsü akü takviye, Balcalı Hastanesi otopark akücü, Gültepe akü takviye, Çarkıpare akücü, Yeşiltepe akü takviye, Kozan yolu akücü, Adana Hacı Sabancı Organize Sanayi Bölgesi (AOSB) akü takviye, Yeni Adana Stadyumu akü takviye, Şahintepe akücü, Yıldırım Beyazıt akü takviye, Buruk akücü, Sofulu akü takviye, Kürkçüler akücü, Baklalı akü takviye.
+- **Transit & Çevre Hatlar**: Adana Mersin Otoyolu (TAG) akü takviye, Şambayadı gişeleri mobil şarj, Batı gişeleri akü takviye, Doğu gişeleri mobil yardım, D400 Karayolu acil akü servisi, Ceyhan yolu akü takviye, Pozantı otoyol rampaları akücü, Karataş sahil yolu akü takviye, Yumurtalık serbest bölge akü servisi.
+
+### 2. Araç Markaları ve Modelleri Anahtar Kelimeleri (Keywords)
+- **Elektrikli Araçlar (EV)**: Togg T10X mobil şarj Adana, Togg şarjı bitti yol yardım, Togg 12V akü takviyesi, Tesla Model Y mobil şarj Adana, Tesla Model 3 acil mobil şarj, Tesla 12V 16V yardımcı akü desteği, BYD Atto 3 mobil şarj Adana, BYD Seal mobil şarj, BYD Dolphin acil takviye, MG4 Electric mobil şarj, MG ZS EV mobil şarj, Hyundai Ioniq 5 mobil şarj Adana, Hyundai Ioniq 6 acil şarj, Kia EV6 mobil şarj, Kia Niro EV acil destek, Mercedes EQB mobil şarj, Mercedes EQE acil şarj, Mercedes EQS mobil şarj, BMW i4 mobil şarj, BMW iX acil mobil şarj, BMW iX3 mobil şarj, Audi Q4 e-tron mobil şarj, Porsche Taycan acil şarj, Volvo EX30 şarj takviye, Volvo XC40 Recharge, Renault Megane E-Tech mobil şarj, Peugeot e-2008 mobil şarj, Opel Mokka-e mobil şarj, Skywell ET5 şarj desteği.
+- **Binek & Hafif Ticari Araçlar**: Fiat Egea akü takviye Adana, Fiat Doblo akücü, Fiat Fiorino akü değişimi, Renault Clio akü takviye Adana, Renault Megane 4 akü değişimi, Renault Symbol akü takviye, Renault Kangoo akücü, Ford Focus akü takviye, Ford Fiesta akücü, Ford Courier akü takviye, Ford Transit akü takviye Adana, Ford Custom akü takviye, Volkswagen Golf akü takviye, Volkswagen Polo akücü, Volkswagen Passat start stop akü değişimi, VW Caddy akü takviye, VW Transporter akücü, VW Crafter akü takviye, Toyota Corolla akü takviye Adana, Toyota Yaris akücü, Toyota C-HR hibrit akü takviye, Honda Civic akü takviye, Hyundai i20 akücü, Hyundai Tucson akü takviye, Peugeot 3008 akü değişimi, Peugeot 2008 akü takviye, Peugeot Rifter akücü, Opel Astra akü takviye, Opel Corsa akücü, Dacia Duster akü takviye, Dacia Sandero akücü, Skoda Octavia akü takviye, Skoda Superb akü değişimi, BMW 320i akü takviye, Mercedes C200 akü takviye.
+- **Ağır Vasıta & Ticari 24V Araçlar**: Adana 24V TIR akü takviye, Mercedes Actros 24V takviye, Mercedes Axor akücü, Ford F-Max 24V akü takviye, Ford Cargo akü takviye, Scania R450 akü takviye, Scania Streamline takviye, Volvo FH 24V akü takviye, Volvo FM akücü, MAN TGX 24V takviye, DAF XF çift akü takviye, kamyon akü bitti takviye Adana, otobüs 24V akü takviye, Adana OSB TIR akü servisi, iş makinesi akü takviye, kepçe akü takviye, JCB akü takviye, ekskavatör akü takviye, beton mikseri 24V akü takviye, traktör akü takviyesi Adana (New Holland, Massey Ferguson, Case, Tümosan).
+
+### 3. Akü Markaları & Teknik Özellikler (Keywords)
+- **Markalar**: İnci Akü Adana, Varta Akü Adana, Mutlu Akü Adana, Bosch Akü Adana, Çelik Akü Adana, Yiğit Akü Adana, EAS Akü Adana, President Akü Adana, Tudor Akü Adana.
+- **Amperaj & Tip**: 45 Ah dar kutup Japon akü, 50 Ah akü, 60 Ah standart sulu akü, 68 Ah akü, 70 Ah EFB Start-Stop akü, 72 Ah düz kutup akü, 74 Ah akü, 75 Ah akü, 80 Ah AGM Start-Stop akü, 90 Ah AGM akü, 95 Ah AGM akü, 100 Ah ticari akü, 105 Ah akü, 135 Ah kamyonet aküsü, 180 Ah TIR aküsü, 200 Ah / 225 Ah 24V ağır vasıta aküsü, jel akü, marin akü, yerinde sıfır akü montajı, eski akü iade bedeli indirimi, alternatör şarj dinamosu ölçümü.
+
+### 4. Arıza & Acil Durum Arama Terimleri (High-Intent Keywords)
+- Adana akü takviye telefon, Adana en yakın akücü nerede, Adana 7/24 nöbetçi akücü, pazar günü açık akücü Adana, gece açık oto elektrikçi Adana, akü bitti marş basmıyor ne yapmalıyım, arabada tık tık sesi geliyor çalışmıyor, araba hiç elektrik almıyor farlar yanmıyor, akü lambası kırmızı yanıyor neden, akü takviye kablosu nasıl bağlanır, ters kutup korumalı akü takviyesi, yerinde akü değiştiren servis Adana, start stop akü tanıtma ve beyin kodlama, elektrikli araç şarjı bitti yolda kaldım, elektrikli araç 12v akü bitti kapı açılmıyor, Adana mobil akü yol yardım numarası 0530 478 84 09.
+

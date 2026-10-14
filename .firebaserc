@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "adanahizlisatis"
+  },
+  "targets": {
+    "adanahizlisatis": {
+      "hosting": {
+        "adanaakutakviye": [
+          "adanaakutakviye"
+        ]
+      }
+    }
+  }
+}
