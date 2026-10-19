@@ -1,10 +1,31 @@
 {
-  "host": "adanaakutakviye.com.tr",
+  "host": "www.takviyejet.com.tr",
   "key": "c7e2b94f0a67450a89d1469e355f9f6e",
-  "keyLocation": "https://adanaakutakviye.com.tr/c7e2b94f0a67450a89d1469e355f9f6e.txt",
+  "keyLocation": "https://www.takviyejet.com.tr/c7e2b94f0a67450a89d1469e355f9f6e.txt",
   "urlList": [
-    "https://adanaakutakviye.com.tr/",
-    "https://adanaakutakviye.com.tr/hizmet-bolgeleri",
-    "https://adanaakutakviye.com.tr/seyhan-aku-takviye"
+    "https://www.takviyejet.com.tr/",
+    "https://www.takviyejet.com.tr/aku-takviye",
+    "https://www.takviyejet.com.tr/elektrikli-arac-mobil-sarj",
+    "https://www.takviyejet.com.tr/yerinde-aku-degisimi",
+    "https://www.takviyejet.com.tr/ticari-arac-aku-takviyesi",
+    "https://www.takviyejet.com.tr/elektrikli-arac-12v-aku-destegi",
+    "https://www.takviyejet.com.tr/hizmet-bolgeleri",
+    "https://www.takviyejet.com.tr/fiyat-bilgisi",
+    "https://www.takviyejet.com.tr/sik-sorulan-sorular",
+    "https://www.takviyejet.com.tr/hakkimizda",
+    "https://www.takviyejet.com.tr/iletisim",
+    "https://www.takviyejet.com.tr/hizli-yardim-talebi",
+    "https://www.takviyejet.com.tr/seyhan-aku-takviye",
+    "https://www.takviyejet.com.tr/cukurova-aku-takviye",
+    "https://www.takviyejet.com.tr/yuregir-aku-takviye",
+    "https://www.takviyejet.com.tr/saricam-aku-takviye",
+    "https://www.takviyejet.com.tr/ceyhan-aku-takviye",
+    "https://www.takviyejet.com.tr/pozanti-aku-takviye",
+    "https://www.takviyejet.com.tr/karaisali-aku-takviye",
+    "https://www.takviyejet.com.tr/karatas-aku-takviye",
+    "https://www.takviyejet.com.tr/yumurtalik-aku-takviye",
+    "https://www.takviyejet.com.tr/imamoglu-aku-takviye",
+    "https://www.takviyejet.com.tr/adana-mersin-otoyolu-mobil-sarj",
+    "https://www.takviyejet.com.tr/adana-osb-elektrikli-arac-mobil-sarj"
   ]
 }

@@ -1,7 +1,7 @@
 /**
- * Adana 7/24 Akü Takviye & Mobil Şarj Platform
+ * TakviyeJet | Adana 7/24 Akü Takviye & Mobil Şarj Platform
  * Client Application Logic
- * Domain: adanaakutakviye.com.tr
+ * Domain: www.takviyejet.com.tr
  * Phone: 0530 478 84 09
  */
 
@@ -242,7 +242,7 @@ function initDispatchForm() {
 *Bulunduğu Konum:* ${location}
 *Açıklama:* ${notes}
 ---------------------------------
-_Adana 7/24 Akü Takviye ve Mobil Şarj ekibi için sistemden iletilmiştir._`;
+_TakviyeJet | Adana 7/24 Akü Takviye ve Mobil Şarj (www.takviyejet.com.tr) sisteminden iletilmiştir._`;
 
     const encodedMsg = encodeURIComponent(waText);
     const whatsappUrl = `https://wa.me/${WHATSAPP_RAW_PHONE}?text=${encodedMsg}`;

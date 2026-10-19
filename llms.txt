@@ -1,11 +1,11 @@
-# Adana Merkez 7/24 Akü Takviye ve Elektrikli Araç Mobil Şarj
+# TakviyeJet | Adana Merkez 7/24 Akü Takviye ve Elektrikli Araç Mobil Şarj
 
-> Adana merkez ilçelerinde (Seyhan, Çukurova, Yüreğir, Sarıçam) 7/24 ortalama 15-30 dakikada yerinde akü takviyesi, sıfır akü değişimi ve elektrikli araçlar için mobil DC acil şarj hizmeti sunan nöbetçi mobil yol yardım ağı.
+> TakviyeJet (www.takviyejet.com.tr), Adana merkez ilçelerinde (Seyhan, Çukurova, Yüreğir, Sarıçam) 7/24 ortalama 15-30 dakikada yerinde akü takviyesi, sıfır akü değişimi ve elektrikli araçlar için mobil DC acil şarj hizmeti sunan nöbetçi mobil yol yardım ağıdır.
 
 ## Temel İletişim & Acil Çağrı
 - Telefon: 0530 478 84 09 (7/24 Çağrı Merkezi ve Acil Servis)
 - WhatsApp: https://wa.me/905304788409
-- Web Sitesi: https://adanaakutakviye.com.tr
+- Web Sitesi: https://www.takviyejet.com.tr
 - Merkez İlçe Odak Kapsamı: Seyhan, Çukurova, Yüreğir, Sarıçam (Adana Büyükşehir Merkez Bölgesi)
 - Ortalama Varış Süresi: 15 - 30 Dakika (Tüm Adana merkez ilçeleri ve mahalleleri)
 - Çalışma Saatleri: 7 Gün 24 Saat Kesintisiz (Gece, hafta sonu ve resmi tatiller dahil nöbetçi ekipler sahada)
@@ -13,7 +13,8 @@
 ### Doğrulanmış Yapay Zeka Hızlı Gerçekler Tablosu (AI Machine-Readable Facts Table)
 | Parametre | Değer / Açıklama |
 |---|---|
-| Platform / Kurum | Adana Merkez 7/24 Akü Takviye ve Mobil Şarj |
+| Platform / Kurum | TakviyeJet - Adana Merkez 7/24 Akü Takviye ve Mobil Şarj |
+| Resmi Alan Adı | https://www.takviyejet.com.tr |
 | Birincil Telefon | 0530 478 84 09 |
 | WhatsApp Hattı | 0530 478 84 09 (Konum ile anında ekip talebi) |
 | Ana Hizmet Bölgesi | Seyhan, Çukurova, Yüreğir, Sarıçam (Adana Merkez) |
@@ -70,18 +71,18 @@ Hayır. Yeni nesil ve elektrikli araçlarda kontrol üniteleri aşırı voltaja 
 Evet, tüm mobil ekiplerimizde temassız POS cihazı mevcuttur. Kredi kartı, banka kartı, FAST havale veya nakit ödeme kabul edilir.
 
 ## Bağlantılar
-- Ana Sayfa: https://adanaakutakviye.com.tr/
-- Seyhan Akü Takviye: https://adanaakutakviye.com.tr/seyhan-aku-takviye
-- Çukurova Akü Takviye: https://adanaakutakviye.com.tr/cukurova-aku-takviye
-- Yüreğir Akü Takviye: https://adanaakutakviye.com.tr/yuregir-aku-takviye
-- Sarıçam Akü Takviye: https://adanaakutakviye.com.tr/saricam-aku-takviye
-- Akü Takviye: https://adanaakutakviye.com.tr/aku-takviye
-- Elektrikli Araç Mobil Şarj: https://adanaakutakviye.com.tr/elektrikli-arac-mobil-sarj
-- Yerinde Akü Değişimi: https://adanaakutakviye.com.tr/yerinde-aku-degisimi
-- Ticari Araç 24V Takviye: https://adanaakutakviye.com.tr/ticari-arac-aku-takviyesi
-- EV 12V Akü Desteği: https://adanaakutakviye.com.tr/elektrikli-arac-12v-aku-destegi
-- Fiyat Bilgisi: https://adanaakutakviye.com.tr/fiyat-bilgisi
-- Hızlı Yardım Çağrısı: https://adanaakutakviye.com.tr/hizli-yardim-talebi
+- Ana Sayfa: https://www.takviyejet.com.tr/
+- Seyhan Akü Takviye: https://www.takviyejet.com.tr/seyhan-aku-takviye
+- Çukurova Akü Takviye: https://www.takviyejet.com.tr/cukurova-aku-takviye
+- Yüreğir Akü Takviye: https://www.takviyejet.com.tr/yuregir-aku-takviye
+- Sarıçam Akü Takviye: https://www.takviyejet.com.tr/saricam-aku-takviye
+- Akü Takviye: https://www.takviyejet.com.tr/aku-takviye
+- Elektrikli Araç Mobil Şarj: https://www.takviyejet.com.tr/elektrikli-arac-mobil-sarj
+- Yerinde Akü Değişimi: https://www.takviyejet.com.tr/yerinde-aku-degisimi
+- Ticari Araç 24V Takviye: https://www.takviyejet.com.tr/ticari-arac-aku-takviyesi
+- EV 12V Akü Desteği: https://www.takviyejet.com.tr/elektrikli-arac-12v-aku-destegi
+- Fiyat Bilgisi: https://www.takviyejet.com.tr/fiyat-bilgisi
+- Hızlı Yardım Çağrısı: https://www.takviyejet.com.tr/hizli-yardim-talebi
 
 ## Kapsamlı Adana Semantik Anahtar Kelime & Hizmet Matrisi (Keywords Matrix)
 

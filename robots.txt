@@ -1,4 +1,4 @@
-# robots.txt for Adana 7/24 Akü Takviye ve Mobil Şarj (https://adanaakutakviye.com.tr)
+# robots.txt for TakviyeJet - Adana 7/24 Akü Takviye ve Mobil Şarj (https://www.takviyejet.com.tr)
 User-agent: *
 Allow: /
 Disallow: /admin.html
@@ -27,7 +27,7 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemaps & Local GEO Resources
-Sitemap: https://adanaakutakviye.com.tr/sitemap.xml
+Sitemap: https://www.takviyejet.com.tr/sitemap.xml
 
 # Generative Engine Optimization (GEO) Resource
-# LLMs-Text: https://adanaakutakviye.com.tr/llms.txt
+# LLMs-Text: https://www.takviyejet.com.tr/llms.txt

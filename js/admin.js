@@ -1,7 +1,7 @@
 /**
- * Adana 7/24 Akü Takviye & Mobil Şarj
+ * TakviyeJet | Adana 7/24 Akü Takviye & Mobil Şarj
  * Admin CRM & Fleet Management Engine
- * Domain: adanaakutakviye.com.tr
+ * Domain: www.takviyejet.com.tr
  */
 
 document.addEventListener('DOMContentLoaded', () => {
