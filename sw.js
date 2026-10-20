@@ -1,9 +1,9 @@
-﻿/**
+/**
  * Service Worker for TakviyeJet | Adana 7/24 AkÃ¼ Takviye & Mobil Åarj (www.takviyejet.com.tr)
  * Provides offline shell & Stale-While-Revalidate instant asset caching
  */
 
-const CACHE_NAME = 'takviyejet-cache-v8';
+const CACHE_NAME = 'takviyejet-cache-v9';
 const ASSETS_TO_CACHE = [
   '/',
   '/aku-takviye',
