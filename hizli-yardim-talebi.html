@@ -115,10 +115,10 @@
       
       <div style="text-align: center; margin-bottom: 2rem;">
         <span class="section-tag" style="color: #ef4444;">Acil Durum Bildirimi</span>
-        <h1 style="font-size: 2.2rem; color: #fff; font-family: var(--font-heading); margin-bottom: 0.5rem;">
+        <h1 style="font-size: 2.2rem; color: var(--text-primary); font-family: var(--font-heading); margin-bottom: 0.5rem;">
           Hızlı Yol Yardım Talebi
         </h1>
-        <p style="color: #94a3b8; font-size: 0.95rem;">
+        <p style="color: var(--text-muted); font-size: 0.95rem;">
           Konumunuzu alın veya yazın; bilgileri doğrudan nöbetçi ekibimizin paneline ve WhatsApp hattına iletelim.
         </p>
       </div>
@@ -169,11 +169,11 @@
             <label class="form-label" for="dispatchLocation">Bulunduğunuz Konum</label>
             <div class="gps-location-box">
               <input type="text" id="dispatchLocation" class="form-control" placeholder="Bulunduğunuz nokta veya GPS alınız..." required>
-              <button type="button" class="btn-get-gps" id="btnGetGps" style="background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.4); color: #f87171;">
+              <button type="button" class="btn-get-gps" id="btnGetGps" style="background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.4); color: #dc2626;">
                 📍 Canlı GPS Al
               </button>
             </div>
-            <small id="gpsStatusText" style="font-size: 0.72rem; color: #94a3b8; margin-top: 2px;"></small>
+            <small id="gpsStatusText" style="font-size: 0.72rem; color: var(--text-muted); margin-top: 2px;"></small>
           </div>
 
           <div class="form-group">
@@ -189,7 +189,7 @@
       </div>
 
       <div style="text-align: center; margin-top: 1.5rem;">
-        <a href="tel:05304788409" style="display: inline-flex; align-items: center; gap: 0.5rem; color: #f87171; font-weight: 700;">
+        <a href="tel:05304788409" style="display: inline-flex; align-items: center; gap: 0.5rem; color: #dc2626; font-weight: 700;">
           Beklemek istemiyor musunuz? Doğrudan arayın: 0530 478 84 09
         </a>
       </div>
@@ -214,20 +214,20 @@
   <div class="modal-overlay" id="confirmationModal">
     <div class="modal-container">
       <div style="text-align: center;">
-        <div style="width: 56px; height: 56px; border-radius: 50%; background: rgba(34, 197, 94, 0.2); color: #4ade80; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+        <div style="width: 56px; height: 56px; border-radius: 50%; background: rgba(34, 197, 94, 0.2); color: #15803d; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
         </div>
 
-        <h3 style="font-size: 1.4rem; color: #ffffff; margin-bottom: 0.5rem;">Bilgileriniz Hazır!</h3>
-        <p style="color: #94a3b8; font-size: 0.9rem; margin-bottom: 1.25rem;">
+        <h3 style="font-size: 1.4rem; color: var(--text-primary); margin-bottom: 0.5rem;">Bilgileriniz Hazır!</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">
           Yardım bilgileriniz hazırlandı. Ekibimizin anında yola çıkabilmesi için lütfen WhatsApp mesajını servise iletiniz:
         </p>
 
-        <div style="background: rgba(255, 255, 255, 0.04); border: 1px dashed rgba(56, 189, 248, 0.4); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.5rem;">
+        <div style="background: #f0f9ff; border: 1px dashed rgba(56, 189, 248, 0.4); border-radius: 8px; padding: 0.75rem; margin-bottom: 1.5rem;">
           <span style="font-size: 0.78rem; color: #64748b; text-transform: uppercase;">Talep Referans Kodu:</span>
-          <strong id="modalTicketRef" style="display: block; font-size: 1.25rem; color: #38bdf8; font-family: var(--font-heading);">ADANA-000000</strong>
+          <strong id="modalTicketRef" style="display: block; font-size: 1.25rem; color: #0284c7; font-family: var(--font-heading);">ADANA-000000</strong>
         </div>
 
         <div style="display: flex; flex-direction: column; gap: 0.75rem;">

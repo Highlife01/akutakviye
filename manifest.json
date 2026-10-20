@@ -4,7 +4,7 @@
   "description": "TakviyeJet – Adana geneli 7/24 yerinde akü takviyesi, 24V ticari destek ve elektrikli araçlar için acil mobil şarj hizmeti.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#070d1e",
+  "background_color": "#f8fafc",
   "theme_color": "#0284c7",
   "orientation": "portrait-primary",
   "icons": [

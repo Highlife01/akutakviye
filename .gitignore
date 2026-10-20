@@ -1,5 +1,6 @@
 .firebase/
 node_modules/
+output/
 .DS_Store
 Thumbs.db
 *.log

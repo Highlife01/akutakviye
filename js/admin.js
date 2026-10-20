@@ -202,7 +202,7 @@ function renderTicketsTable(filterStatus = 'all', searchQuery = '') {
     const divId = document.createElement('strong');
     divId.textContent = ticket.id;
     divId.style.display = 'block';
-    divId.style.color = '#38bdf8';
+    divId.style.color = '#0284c7';
     const divDate = document.createElement('span');
     divDate.textContent = ticket.date;
     divDate.style.fontSize = '0.75rem';
@@ -215,12 +215,12 @@ function renderTicketsTable(filterStatus = 'all', searchQuery = '') {
     const divName = document.createElement('strong');
     divName.textContent = ticket.name;
     divName.style.display = 'block';
-    divName.style.color = '#ffffff';
+    divName.style.color = '#0f172a';
     const linkPhone = document.createElement('a');
     linkPhone.href = `tel:${ticket.phone.replace(/[^0-9]/g, '')}`;
     linkPhone.textContent = ticket.phone;
     linkPhone.style.fontSize = '0.8rem';
-    linkPhone.style.color = '#22c55e';
+    linkPhone.style.color = '#15803d';
     tdCustomer.appendChild(divName);
     tdCustomer.appendChild(linkPhone);
 
@@ -232,7 +232,7 @@ function renderTicketsTable(filterStatus = 'all', searchQuery = '') {
     const divIssue = document.createElement('span');
     divIssue.textContent = ticket.issue;
     divIssue.style.fontSize = '0.8rem';
-    divIssue.style.color = '#cbd5e1';
+    divIssue.style.color = '#475569';
     tdVehicle.appendChild(divVeh);
     tdVehicle.appendChild(divIssue);
 
@@ -252,7 +252,7 @@ function renderTicketsTable(filterStatus = 'all', searchQuery = '') {
     mapBtn.style.alignItems = 'center';
     mapBtn.style.gap = '4px';
     mapBtn.style.fontSize = '0.75rem';
-    mapBtn.style.color = '#38bdf8';
+    mapBtn.style.color = '#0284c7';
     mapBtn.style.marginTop = '4px';
     mapBtn.appendChild(createAdminSvg(mapPinSvg));
     mapBtn.appendChild(document.createTextNode(' Haritada Aç'));
@@ -405,19 +405,19 @@ function renderTicketsTable(filterStatus = 'all', searchQuery = '') {
 
 function updateStatusColor(selectEl, status) {
   if (status === 'Yeni Talep') {
-    selectEl.style.color = '#38bdf8';
+    selectEl.style.color = '#0284c7';
     selectEl.style.borderColor = 'rgba(56, 189, 248, 0.4)';
   } else if (status === 'Ekip Yola Çıktı') {
-    selectEl.style.color = '#f59e0b';
+    selectEl.style.color = '#d97706';
     selectEl.style.borderColor = 'rgba(245, 158, 11, 0.4)';
   } else if (status === 'Müşteriye Ulaşıldı') {
-    selectEl.style.color = '#c084fc';
+    selectEl.style.color = '#7e22ce';
     selectEl.style.borderColor = 'rgba(192, 132, 252, 0.4)';
   } else if (status === 'İşlem Tamamlandı') {
-    selectEl.style.color = '#4ade80';
+    selectEl.style.color = '#15803d';
     selectEl.style.borderColor = 'rgba(74, 222, 128, 0.4)';
   } else {
-    selectEl.style.color = '#f87171';
+    selectEl.style.color = '#dc2626';
     selectEl.style.borderColor = 'rgba(248, 113, 113, 0.4)';
   }
 }
@@ -549,17 +549,17 @@ function renderInventory() {
   stockItems.forEach(item => {
     const card = document.createElement('div');
     card.className = 'district-card';
-    card.style.background = 'rgba(255, 255, 255, 0.03)';
+    card.style.background = '#f8fafc';
 
     const h = document.createElement('h5');
     h.textContent = item.name;
-    h.style.color = '#ffffff';
+    h.style.color = '#0f172a';
     h.style.fontSize = '0.9rem';
 
     const p = document.createElement('p');
     p.textContent = item.battery ? `Batarya Doluluk: ${item.battery}` : `Stok Adedi: ${item.count} adet`;
     p.style.fontSize = '0.8rem';
-    p.style.color = '#38bdf8';
+    p.style.color = '#0284c7';
 
     const badge = document.createElement('span');
     badge.textContent = item.status;

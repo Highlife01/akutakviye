@@ -8,7 +8,8 @@
       "indexnow_payload.json",
       "**/.*",
       "**/.git/**",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "**/output/**"
     ],
     "cleanUrls": true,
     "trailingSlash": false,

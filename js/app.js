@@ -156,14 +156,14 @@ function initGeolocation() {
         locationInput.dataset.mapsUrl = mapsUrl;
 
         getGpsBtn.disabled = false;
-        getGpsBtn.style.background = 'rgba(34, 197, 94, 0.2)';
-        getGpsBtn.style.borderColor = 'rgba(34, 197, 94, 0.5)';
-        getGpsBtn.style.color = '#4ade80';
+        getGpsBtn.style.background = '#dcfce7';
+        getGpsBtn.style.borderColor = '#86efac';
+        getGpsBtn.style.color = '#15803d';
         setButtonContent(getGpsBtn, CHECK_SVG_16, 'Konum Alındı!');
 
         if (gpsStatus) {
           gpsStatus.textContent = `📍 GPS Koordinatları başarıyla kaydedildi (${lat}, ${lng})`;
-          gpsStatus.style.color = '#4ade80';
+          gpsStatus.style.color = '#15803d';
         }
       },
       (error) => {
@@ -176,7 +176,7 @@ function initGeolocation() {
         }
         if (gpsStatus) {
           gpsStatus.textContent = msg;
-          gpsStatus.style.color = '#f87171';
+          gpsStatus.style.color = '#dc2626';
         }
       },
       { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
