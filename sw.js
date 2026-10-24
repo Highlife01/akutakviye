@@ -1,47 +1,26 @@
 /**
- * Service Worker for TakviyeJet | Adana 7/24 AkÃ¼ Takviye & Mobil Åarj (www.takviyejet.com.tr)
- * Provides offline shell & Stale-While-Revalidate instant asset caching
+ * Service Worker for TakviyeJet | Adana 7/24 Akü Takviye & Mobil Şarj (www.takviyejet.com.tr)
+ * Provides lightweight offline shell & Stale-While-Revalidate instant asset caching
  */
 
-const CACHE_NAME = 'takviyejet-cache-v9';
-const ASSETS_TO_CACHE = [
+const CACHE_NAME = 'takviyejet-cache-v10';
+
+// Pre-cache only critical core shell assets on install to avoid competing with initial page load bandwidth
+const CORE_SHELL_ASSETS = [
   '/',
-  '/aku-takviye',
-  '/elektrikli-arac-mobil-sarj',
-  '/yerinde-aku-degisimi',
-  '/ticari-arac-aku-takviyesi',
-  '/elektrikli-arac-12v-aku-destegi',
-  '/hizmet-bolgeleri',
-  '/fiyat-bilgisi',
-  '/sik-sorulan-sorular',
-  '/hakkimizda',
-  '/iletisim',
-  '/hizli-yardim-talebi',
-  '/seyhan-aku-takviye',
-  '/cukurova-aku-takviye',
-  '/yuregir-aku-takviye',
-  '/saricam-aku-takviye',
-  '/ceyhan-aku-takviye',
-  '/pozanti-aku-takviye',
-  '/karaisali-aku-takviye',
-  '/karatas-aku-takviye',
-  '/yumurtalik-aku-takviye',
-  '/imamoglu-aku-takviye',
-  '/adana-mersin-otoyolu-mobil-sarj',
-  '/adana-osb-elektrikli-arac-mobil-sarj',
   '/css/style.css',
   '/js/app.js',
   '/images/adana-mobil-servis.webp',
   '/icons/icon-192.png',
-  '/manifest.json',
-  '/locations.kml',
-  '/llms.txt'
+  '/manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS_TO_CACHE).catch(() => {});
+      return Promise.allSettled(
+        CORE_SHELL_ASSETS.map((url) => cache.add(url))
+      );
     })
   );
   self.skipWaiting();

@@ -596,6 +596,35 @@ function initMobileMenu() {
       toggleBtn.setAttribute('aria-expanded', 'false');
     }
   });
+
+  // Synchronize active menu state and aria-current="page"
+  const rawPath = window.location.pathname.replace(/\.html$/, '') || '/';
+  const currentPath = rawPath.length > 1 && rawPath.endsWith('/') ? rawPath.slice(0, -1) : rawPath;
+  const districtPaths = new Set([
+    '/seyhan-aku-takviye', '/cukurova-aku-takviye', '/yuregir-aku-takviye',
+    '/saricam-aku-takviye', '/ceyhan-aku-takviye', '/pozanti-aku-takviye',
+    '/karaisali-aku-takviye', '/karatas-aku-takviye', '/yumurtalik-aku-takviye',
+    '/imamoglu-aku-takviye', '/adana-mersin-otoyolu-mobil-sarj', '/adana-osb-elektrikli-arac-mobil-sarj'
+  ]);
+  let targetNavHref = currentPath;
+  if (districtPaths.has(currentPath)) {
+    targetNavHref = '/hizmet-bolgeleri';
+  } else if (currentPath === '/ticari-arac-aku-takviyesi') {
+    targetNavHref = '/aku-takviye';
+  } else if (currentPath === '/elektrikli-arac-12v-aku-destegi') {
+    targetNavHref = '/elektrikli-arac-mobil-sarj';
+  }
+
+  navLinks.querySelectorAll('.nav-link').forEach((link) => {
+    const href = link.getAttribute('href');
+    const isMatch = href === targetNavHref;
+    link.classList.toggle('active', isMatch);
+    if (isMatch) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
 }
 
 /**

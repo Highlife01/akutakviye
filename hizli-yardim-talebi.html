@@ -41,9 +41,10 @@
   <!-- Icons & Font Resource Hints -->
   <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="/css/style.css">
 
   <script type="application/ld+json">
@@ -91,7 +92,7 @@
 
         <!-- Desktop Nav -->
         <ul class="nav-links" id="navLinks">
-            <li><a href="/" class="nav-link active">Ana Sayfa</a></li>
+            <li><a href="/" class="nav-link active" aria-current="page">Ana Sayfa</a></li>
             <li><a href="/aku-takviye" class="nav-link">Akü Takviye</a></li>
             <li><a href="/elektrikli-arac-mobil-sarj" class="nav-link">Mobil Şarj</a></li>
             <li><a href="/yerinde-aku-degisimi" class="nav-link">Akü Değişimi</a></li>
@@ -121,6 +122,8 @@
       </div>
     </div>
   </header>
+
+  <main id="main-content">
 
   <!-- Focused Screen -->
   <section style="padding: 3rem 0 5rem;">
@@ -314,6 +317,8 @@
     </div>
   </footer>
 
+  </main>
+
   <!-- Sticky Emergency Bar -->
   <div class="sticky-emergency-bar">
     <div class="sticky-bar-inner">
@@ -360,5 +365,20 @@
   </div>
 
   <script src="/js/app.js" defer></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/admin*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </body>
 </html>

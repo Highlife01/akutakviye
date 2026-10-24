@@ -47,14 +47,16 @@
   <!-- PWA & Mobile Icons -->
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#0284c7">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <!-- Icons & Font Resource Hints -->
   <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- Structured Data / JSON-LD LocalBusiness & Rich Snippets -->
@@ -271,7 +273,7 @@
 
         <!-- Desktop Nav -->
         <ul class="nav-links" id="navLinks">
-            <li><a href="/" class="nav-link active">Ana Sayfa</a></li>
+            <li><a href="/" class="nav-link active" aria-current="page">Ana Sayfa</a></li>
             <li><a href="/aku-takviye" class="nav-link">Akü Takviye</a></li>
             <li><a href="/elektrikli-arac-mobil-sarj" class="nav-link">Mobil Şarj</a></li>
             <li><a href="/yerinde-aku-degisimi" class="nav-link">Akü Değişimi</a></li>
@@ -301,6 +303,8 @@
       </div>
     </div>
   </header>
+
+  <main id="main-content">
 
   <!-- ==========================================================================
        Hero Section
@@ -1723,6 +1727,8 @@
   <!-- ==========================================================================
        PERSISTENT FLOATING EMERGENCY BAR (Ekranın Altında Sürekli Sabit)
        ========================================================================== -->
+  </main>
+
   <div class="sticky-emergency-bar" id="stickyEmergencyBar">
     <div class="sticky-bar-inner">
       <a href="https://wa.me/905304788409?text=Merhaba%2C%20Adana%27da%20ak%C3%BC%20takviye%2Fmobil%20%C5%9Farj%20hizmeti%20almak%20istiyorum.%20Konumumu%20ve%20ara%C3%A7%20bilgilerimi%20payla%C5%9Faca%C4%9F%C4%B1m." 
@@ -1785,5 +1791,20 @@
 
   <!-- JavaScript -->
   <script src="/js/app.js" defer></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/admin*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </body>
 </html>

@@ -41,9 +41,10 @@
   <!-- Icons & Font Resource Hints -->
   <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="/css/style.css">
 
   <script type="application/ld+json">
@@ -97,7 +98,7 @@
             <li><a href="/yerinde-aku-degisimi" class="nav-link">Akü Değişimi</a></li>
             <li><a href="/hizmet-bolgeleri" class="nav-link">Hizmet Bölgeleri</a></li>
             <li><a href="/fiyat-bilgisi" class="nav-link">Fiyat Bilgisi</a></li>
-            <li><a href="/sik-sorulan-sorular" class="nav-link active">S.S.S.</a></li>
+            <li><a href="/sik-sorulan-sorular" class="nav-link">S.S.S.</a></li>
             <li><a href="/iletisim" class="nav-link">İletişim</a></li>
         </ul>
 
@@ -122,6 +123,8 @@
     </div>
   </header>
 
+  <main id="main-content">
+
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="container">
@@ -134,7 +137,7 @@
         </p>
       </div>
 
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center;">
+      <div class="services-split-grid" style="gap: 2.5rem; align-items: center;">
         
         <div>
           <h3 style="font-size: 1.5rem; color: var(--text-primary); margin-bottom: 1rem;">Geleceğin Mobil Yol Yardım Standartları</h3>
@@ -163,13 +166,15 @@
         </div>
 
         <div style="border-radius: var(--radius-lg); overflow: hidden; border: 1px solid rgba(56,189,248,0.3); box-shadow: var(--shadow-lg);">
-          <img src="images/adana-mobil-servis.jpg" alt="Adana 7/24 Mobil Servis Aracı" style="width: 100%; height: auto; object-fit: cover;">
+          <picture><source srcset="/images/adana-mobil-servis.webp" type="image/webp"><img src="/images/adana-mobil-servis.jpg" width="1376" height="768" alt="Adana 7/24 Mobil Servis Aracı" loading="lazy" decoding="async" style="width: 100%; height: auto; object-fit: cover;"></picture>
         </div>
 
       </div>
 
     </div>
   </section>
+
+  </main>
 
   <!-- Sticky Emergency Bar -->
   <div class="sticky-emergency-bar">
@@ -288,5 +293,20 @@
   </footer>
 
   <script src="/js/app.js" defer></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/admin*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </body>
 </html>

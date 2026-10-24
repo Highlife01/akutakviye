@@ -9,9 +9,10 @@
   <!-- Icons & Font Resource Hints -->
   <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="/css/style.css">
   <style>
     .admin-top-bar {
@@ -147,9 +148,9 @@
     <!-- Search & Filter Controls -->
     <div class="admin-controls-bar">
       <div class="search-filter-group">
-        <input type="text" id="searchTickets" class="form-control" placeholder="🔍 Ad, telefon, araç, ilçe veya takip no ara..." style="max-width: 340px;">
+        <input type="text" id="searchTickets" class="form-control" aria-label="Taleplerde ara" placeholder="🔍 Ad, telefon, araç, ilçe veya takip no ara..." style="max-width: 340px;">
         
-        <select id="filterStatus" class="form-control" style="max-width: 200px;">
+        <select id="filterStatus" class="form-control" aria-label="Duruma göre filtrele" style="max-width: 200px;">
           <option value="all">Tüm Durumlar (Tümü)</option>
           <option value="Yeni Talep">Yeni Talepler</option>
           <option value="Ekip Yola Çıktı">Ekip Yola Çıktı</option>

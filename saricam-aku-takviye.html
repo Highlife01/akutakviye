@@ -44,9 +44,10 @@
   <!-- Icons & Font Resource Hints -->
   <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- Schema.org Service & BreadcrumbList -->
@@ -139,7 +140,7 @@
             <li><a href="/aku-takviye" class="nav-link">Akü Takviye</a></li>
             <li><a href="/elektrikli-arac-mobil-sarj" class="nav-link">Mobil Şarj</a></li>
             <li><a href="/yerinde-aku-degisimi" class="nav-link">Akü Değişimi</a></li>
-            <li><a href="/hizmet-bolgeleri" class="nav-link active">Hizmet Bölgeleri</a></li>
+            <li><a href="/hizmet-bolgeleri" class="nav-link active" aria-current="page">Hizmet Bölgeleri</a></li>
             <li><a href="/fiyat-bilgisi" class="nav-link">Fiyat Bilgisi</a></li>
             <li><a href="/sik-sorulan-sorular" class="nav-link">S.S.S.</a></li>
             <li><a href="/iletisim" class="nav-link">İletişim</a></li>
@@ -165,6 +166,8 @@
       </div>
     </div>
   </header>
+
+  <main id="main-content">
 
   <section class="hero-section">
     <div class="container">
@@ -276,6 +279,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- Sticky Emergency Bar -->
   <div class="sticky-emergency-bar">
@@ -395,5 +400,20 @@
   </footer>
 
   <script src="/js/app.js" defer></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/admin*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </body>
 </html>

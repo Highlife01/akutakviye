@@ -41,9 +41,10 @@
   <!-- Icons & Font Resource Hints -->
   <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- Schema.org Service & BreadcrumbList -->
@@ -128,7 +129,7 @@
         <ul class="nav-links" id="navLinks">
             <li><a href="/" class="nav-link">Ana Sayfa</a></li>
             <li><a href="/aku-takviye" class="nav-link">Akü Takviye</a></li>
-            <li><a href="/elektrikli-arac-mobil-sarj" class="nav-link active">Mobil Şarj</a></li>
+            <li><a href="/elektrikli-arac-mobil-sarj" class="nav-link active" aria-current="page">Mobil Şarj</a></li>
             <li><a href="/yerinde-aku-degisimi" class="nav-link">Akü Değişimi</a></li>
             <li><a href="/hizmet-bolgeleri" class="nav-link">Hizmet Bölgeleri</a></li>
             <li><a href="/fiyat-bilgisi" class="nav-link">Fiyat Bilgisi</a></li>
@@ -156,6 +157,8 @@
       </div>
     </div>
   </header>
+
+  <main id="main-content">
 
   <!-- EV Hero Section -->
   <section class="hero-section" style="background: radial-gradient(ellipse at top center, rgba(34, 197, 94, 0.14) 0%, rgba(248, 250, 252, 0) 70%);">
@@ -336,6 +339,8 @@
     </div>
   </section>
 
+  </main>
+
   <!-- Sticky Emergency Bar -->
   <div class="sticky-emergency-bar">
     <div class="sticky-bar-inner">
@@ -454,5 +459,20 @@
   </footer>
 
   <script src="/js/app.js" defer></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/admin*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </body>
 </html>

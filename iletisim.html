@@ -41,9 +41,10 @@
   <!-- Icons & Font Resource Hints -->
   <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- Schema.org Service / AutoRepair & BreadcrumbList -->
@@ -124,7 +125,7 @@
             <li><a href="/hizmet-bolgeleri" class="nav-link">Hizmet Bölgeleri</a></li>
             <li><a href="/fiyat-bilgisi" class="nav-link">Fiyat Bilgisi</a></li>
             <li><a href="/sik-sorulan-sorular" class="nav-link">S.S.S.</a></li>
-            <li><a href="/iletisim" class="nav-link active">İletişim</a></li>
+            <li><a href="/iletisim" class="nav-link active" aria-current="page">İletişim</a></li>
         </ul>
 
         <!-- Header Call CTA -->
@@ -148,6 +149,8 @@
     </div>
   </header>
 
+  <main id="main-content">
+
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="container">
@@ -160,7 +163,7 @@
         </p>
       </div>
 
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem;">
+      <div class="services-split-grid" style="gap: 2.5rem;">
         
         <!-- Contact Information Cards -->
         <div style="display: flex; flex-direction: column; gap: 1.25rem;">
@@ -210,6 +213,8 @@
                 <strong style="display: block; font-size: 1.15rem; color: var(--text-primary);">Adana Geneli 7/24 Mobil Ekipler</strong>
               </div>
             </div>
+          </div>
+
           <div class="pricing-card" style="border-left: 4px solid #f59e0b;">
             <div style="display: flex; align-items: center; gap: 1rem;">
               <div style="width: 44px; height: 44px; border-radius: 50%; background: rgba(245, 158, 11, 0.15); display: flex; align-items: center; justify-content: center; color: #f59e0b; font-size: 1.3rem;">
@@ -254,7 +259,7 @@
             </div>
 
             <div class="form-group">
-              <label class="form-label">Konumunuz / Mesajınız</label>
+              <label class="form-label" for="dispatchNotes">Konumunuz / Mesajınız</label>
               <textarea id="dispatchNotes" class="form-control" rows="3" placeholder="Bulunduğunuz yeri veya iletmek istediğiniz mesajı yazınız..."></textarea>
             </div>
 
@@ -268,6 +273,8 @@
 
     </div>
   </section>
+
+  </main>
 
   <!-- Sticky Emergency Bar -->
   <div class="sticky-emergency-bar">
@@ -387,5 +394,20 @@
   </footer>
 
   <script src="/js/app.js" defer></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/admin*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </body>
 </html>
